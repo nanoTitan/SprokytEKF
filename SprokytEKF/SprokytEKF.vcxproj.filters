@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TinyEKF">
+      <UniqueIdentifier>{f8d2e595-bb6a-43c8-9efc-bd51597fc740}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TinyEKF\tiny_ekf.c">
+      <Filter>TinyEKF</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="EKFLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TinyEKF\tiny_ekf.h">
+      <Filter>TinyEKF</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyEKF\tiny_ekf_struct.h">
+      <Filter>TinyEKF</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyEKF\TinyEKF.h">
+      <Filter>TinyEKF</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="EKFLoader.h" />
+  </ItemGroup>
+</Project>
